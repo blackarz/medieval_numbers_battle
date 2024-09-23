@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgmenu"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/winMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Congratulations! \nLevel Complete"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="#FF9800"
+        android:background="@drawable/winboard"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"/>
+
+    <ImageView
+        android:id="@+id/nextLevelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Level"
+        android:src="@drawable/nextbtn"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restart"
+        android:layout_below="@id/nextLevelButton"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/nextbtn"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/coin"
+        android:layout_alignParentBottom="true"
+        />
+
+</LinearLayout>

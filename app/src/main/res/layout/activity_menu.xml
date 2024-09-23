@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmenu"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Menu">
+
+
+
+    <ImageView
+        android:id="@+id/PlayBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/playbtn"
+        android:layout_margin="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/SettingsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/settingsbtn"
+        android:layout_margin="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/ExtBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/extbtn"
+        android:layout_margin="10dp"
+        />
+
+
+
+
+</LinearLayout>
